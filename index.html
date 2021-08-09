@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Tabela</title>
+</head>
+<body>
+
+
+    <table>
+        <caption style="background-color:black;">Produzidos VS vendidos por loja</caption>
+
+        <colgroup>
+            <col style="background-color:blue;">
+            <col span="2" style="background-color:red;">
+            <col span="2" style="background-color:green;">
+
+        </colgroup>
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">João Silva</th>
+                <th colspan="2" scope="colgroup">Antonio Pereira</th>
+            </tr>
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Garrafas</th>
+                <td>30</td>
+                <td>25</td>
+                <td>40</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <th scope="row">Copos</th>
+                <td>50</td>
+                <td>50</td>
+                <td>45</td>
+                <td>40</td>
+            </tr>
+
+
+        </tbody>
+
+        
+    </table>
+
+</body>
+</html>
